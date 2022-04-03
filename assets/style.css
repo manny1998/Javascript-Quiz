@@ -1,0 +1,30 @@
+
+* { 
+background-color: azure;
+}
+
+.Homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Homepage button {
+    max-width: max-content;
+    background-color: white;
+}
+
+.q1, .q2, .q3, .finish {
+    display: none;
+    width: 600px;
+}
+
+.next {
+    display: none;
+}
+
+.next-two {
+    display: none;
+}
+
+/*q3-answers, q2-answers, q1-answers- make nice layout design for quiz boxes.

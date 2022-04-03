@@ -8,15 +8,47 @@
     <title>Quiz</title>
 </head>
 <body>
-    <h1 class="time" style="text-align:center;"></h1>
+    <h1 class="time"></h1>
     <div id="main"></div>
 
     <div class="Homepage">
         <h1>Javascript Quiz</h1>
-        <p>This quiz has 1minute timer and for every question wrong 15secs removed. Every correct question worth 10 points.</p>
-        <button>Press to begin</button>
-        <h3>High Scores</h3>
+        <p>This quiz has 30seconds timer and for every question wrong 10secs removed. Every correct question worth 10 points.</p>
+        <button class="begin-quiz">Press to begin</button>
+        <button>High Scores</button>
     </div>
+
+    <div class="q1">
+        <h2>What is the most prominent reason web developers use javascript</h2>
+    <div class="q1-answers">
+            <button class="correct">dynamic and interactive user experience</button>
+            <button class="incorrect">design appearance of webpage</button>
+            <button class="incorrect">write content for webpage</button>
+    </div>
+    <h2 class="next">Next</h2>
+    </div>
+
+    <div class="q2">
+        <h2>Which is a javascript type</h2>
+    <div class="q2-answers">
+            <button class="incorrect-two">silly string</button>
+            <button class="incorrect-two">string cheese</button>
+            <button class="correct-two">string</button>
+    </div>
+    <h2 class="next-two">Next</h2>
+    </div>
+
+    <div class="q3">
+        <h2>What value/values does a booleans store</h2>
+    <div class="q3-answers">
+            <button class="correct-three">True or false value</button>
+            <button class="incorrect-three">numbers</button>
+            <button class="incorrect-three">words</button>
+    </div>
+    <h2 class="finish">finish</h2>
+    </div>
+
+    <h2 class="answer"></h2>
 
     <script src="./assets/script.js"></script>
 </body>
